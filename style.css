@@ -1,0 +1,288 @@
+body{
+    background-image: url(./img/1.jpg);
+}
+.calculadora{
+    position: absolute;
+    width: 360px;
+    height: 640px;
+    left: 300px;
+    top: 64px;
+    display: flex;
+    background: linear-gradient(180deg, #FEFEFE 0%, #E9ECEE 37.34%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    box-shadow: 13px 13px 10px #E6E5E5;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+.rectangulo2{
+    position: absolute;
+    width: 293px;
+    height: 87px;
+    left: 34px;
+    top: 76px;
+    box-shadow: 13px 13px 10px black;
+    background: #A5A5A5;
+}
+.rectangulo1{
+    position: absolute;
+    width: 319px;
+    height: 110px;
+    left: 21px;
+    top: 65px;
+    
+    /* Black */
+    
+    background: #000000;
+    box-shadow: 4px 4px 4px #D5D8DC, -4px -4px 4px #FFFEFE;
+    border-radius: 10px;
+}
+#resultado{
+    position: absolute;
+    width: 230px;
+    height: 33px;
+    left: 50px;
+    top: 30px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.15em;
+    
+    color: #3F474E;
+}
+button.C{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 20px;
+    top: 220px;
+    
+    background: #FE9505;
+    box-shadow: 4px 4px 4px #DEBF81, -4px -4px 4px #FFFFFF;
+    border-radius: 30px;
+}
+button.operadormas{
+    position: absolute;
+ width: 67px;
+ height: 67px;
+ left: 104px;
+ top: 220px;
+
+ background: #F5F0E3;
+ box-shadow: 4px 4px 4px #E0DBCE, -4px -4px 4px #FDFDFD;
+ border-radius: 30px;
+}
+button.operadorporcentaje{
+    position: absolute;
+ width: 67px;
+ height: 67px;
+ left: 188px;
+ top: 220px;
+
+ background: #F6F0E4;
+ box-shadow: 4px 4px 4px #E0DBCE, -4px -4px 4px #FFFFFF;
+ border-radius: 30px;
+}
+button.operadordivision{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 272px;
+    top: 220px;
+    
+    background: #D5D6E9;
+    box-shadow: 4px 4px 4px #D6C9DF, -4px -4px 4px #FFFFFF;
+    border-radius: 30px;
+}
+button.operadorX{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 272px;
+    top: 304px;
+    
+    background: #D5D6E9;
+    box-shadow: 4px 4px 5px #D6C9DF, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+}
+button.operadorresta{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 272px;
+    top: 388px;
+    
+    background: #D5D6E9;
+    box-shadow: 4px 4px 5px #D6C9DF, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+}
+button.operadorsuma{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 272px;
+    top: 472px;
+    
+    background: #D5D6E9;
+    box-shadow: 4px 4px 5px #D6C9DF, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+}
+button.numeropunto{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 104px;
+    top: 556px;
+    
+    background: #F4F5F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+}
+button.operadorsuprimir{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 188px;
+    top: 556px;
+    
+    background: #E7E9EC;
+    box-shadow: 4px 4px 5px #D4D5D7, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+}
+button.operadorigual{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 272px;
+    top: 556px;
+    
+    background: #2D41F5;
+    box-shadow: 4px 4px 5px #6976E9, -4px -4px 3px #FFFFFF;
+    border-radius: 30px;
+}
+button.numero0{
+ position: absolute;
+ width: 67px;
+ height: 67px;
+ left: 20px;
+ top: 556px;
+
+ background: #F1F3F5;
+ box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+ border-radius: 30px;
+}
+button.numero1{
+    position: absolute;
+ width: 67px;
+ height: 67px;
+ left: 20px;
+ top: 472px;
+
+ background: #F3F5F7;
+ box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+ border-radius: 30px; 
+}
+button.numero2{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 104px;
+    top: 472px;
+    
+    background: #F4F5F7;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px; 
+}
+button.numero3{
+    position: absolute;
+ width: 67px;
+ height: 67px;
+ left: 188px;
+ top: 472px;
+
+ background: #F4F5F7;
+ box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+ border-radius: 30px; 
+}
+button.numero4{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 20px;
+    top: 388px;
+    
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px; 
+}
+button.numero5{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 104px;
+    top: 388px;
+    
+    background: #F2F3F5;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px; 
+}
+button.numero6{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 188px;
+    top: 388px;
+    
+    background: #F5F5F7;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px; 
+}
+button.numero7{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 20px;
+    top: 304px;
+    
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px; 
+}
+button.numero8{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 104px;
+    top: 304px;
+    
+    background: #F4F5F7;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px; 
+}
+button.numero9{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 188px;
+    top: 304px;
+    
+    background: #F4F5F7;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px; 
+}
+button.operador←{
+position: absolute;
+width: 67px;
+height: 67px;
+left: 272px;
+top: 472px;
+
+}
